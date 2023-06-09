@@ -1,0 +1,32 @@
+.welcomePage__content {
+	text-align: center;
+	margin: 0 12px 0 12px;
+}
+
+.welcomePage__title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	color: #0c0f33;
+}
+.welcomePage__text {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: #0c0f33;
+}
+.welcomePage__input {
+	border: 2px solid #3d99be;
+	border-radius: 6px;
+	margin-right: 5px;
+	padding: 4px;
+	outline: none;
+}
+.welcomePage__button {
+	border: none;
+	border-radius: 6px;
+	padding: 6px 12px;
+	background: #3d99be; 
+	color: white;
+	cursor: pointer;
+}
