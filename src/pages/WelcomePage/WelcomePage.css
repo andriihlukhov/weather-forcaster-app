@@ -16,6 +16,8 @@
 	color: #0c0f33;
 }
 .welcomePage__input {
+	position: relative;
+	font-size: 16px;
 	border: 2px solid #3d99be;
 	border-radius: 6px;
 	margin-right: 5px;
@@ -29,4 +31,36 @@
 	background: #3d99be; 
 	color: white;
 	cursor: pointer;
+}
+
+.welcomePage__input_button {
+	width: fit-content;
+	margin: auto;
+}
+
+.welcomePage__optionsList {
+	position: absolute;
+	background: white;
+	width: fit-content;
+	border-radius: 6px;
+	margin-top: 5px;
+}
+
+.welcomePage__option {
+	padding: 2px;
+}
+
+.welcomePage__option_button {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	width: 100%;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.welcomePage__option_button:hover {
+	border-radius: 4px;
+	background: rgb(182, 182, 182);
 }
