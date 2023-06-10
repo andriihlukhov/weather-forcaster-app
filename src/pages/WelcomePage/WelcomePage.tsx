@@ -40,7 +40,7 @@ function WelcomePage({
                 type="button"
                 onClick={() => onOptionSelect(option)}
               >
-                {option.name}
+                {option.name}, {option.country}
               </button>
             </p>
           ))}

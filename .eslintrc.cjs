@@ -21,5 +21,6 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     '@typescript-eslint/no-shadow': 0,
+    'import/prefer-default-export': 0,
   },
 };

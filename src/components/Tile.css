@@ -1,0 +1,25 @@
+.forecast__info_item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 170px;
+	height: 105px;
+	background:rgba(255, 255, 255, 0.6);
+	border-radius: 6px;
+	padding: 7px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #7999B0;
+}
+
+.tile__info {
+	font-size: 14px;
+}
+.tile__description {
+	font-size: 12px;
+}

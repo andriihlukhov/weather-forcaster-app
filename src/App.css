@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	min-height: 100vh;
 	background: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
 }
 
@@ -11,7 +11,7 @@
 	justify-content: center;
 	align-items: center;
 	background:rgba(255, 255, 255, 0.5);
-	width: 300px;
+	width: 400px;
 	height: 450px;
 	border-radius: 12px;
 }
