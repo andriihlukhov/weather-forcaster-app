@@ -1,0 +1,75 @@
+.welcomePage__content {
+	text-align: center;
+	margin: 0 12px 0 12px;
+}
+
+.welcomePage__title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: #0c0f33;
+}
+.welcomePage__text {
+	width: 300px;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: #0c0f33;
+}
+.welcomePage__input {
+	position: relative;
+	width: 230px;
+	font-size: 16px;
+	border: 2px solid #3d99be;
+	border-radius: 6px;
+	margin-right: 5px;
+	padding: 6px;
+	outline: none;
+	font-size: 14px;
+}
+
+.welcomePage__input::placeholder {
+	color: rgb(184, 184, 184);
+}
+
+.welcomePage__button {
+	border: none;
+	width: 70px;
+	border-radius: 6px;
+	padding: 7px 12px;
+	background: #3d99be; 
+	color: white;
+	cursor: pointer;
+}
+
+.welcomePage__input_button {
+	width: fit-content;
+	margin: auto;
+}
+
+.welcomePage__optionsList {
+	position: absolute;
+	background: white;
+	min-width: 200px;
+	border-radius: 6px;
+	margin-top: 5px;
+}
+
+.welcomePage__option {
+	padding: 2px;
+}
+
+.welcomePage__option_button {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	width: 100%;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.welcomePage__option_button:hover {
+	border-radius: 4px;
+	background: rgb(182, 182, 182);
+}
