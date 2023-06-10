@@ -1,0 +1,81 @@
+.forecast__content {
+		display: flex;
+		flex-direction: column;
+		background:rgba(255, 255, 255, 0.5);
+		width: 600px;
+		height: 590px;
+		border-radius: 12px;
+}
+
+.container {
+	margin: 20px;
+}
+
+.forecast__title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.forecast__country {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.forecast__weather {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	border-bottom: 2px solid #7999B0;
+	padding-bottom: 5px;
+}
+
+.forecast__temperatures {
+	display: flex;
+	justify-content: right;
+	gap: 20px;
+}
+
+.forecast__data {
+	display: flex;
+	overflow-x: scroll;
+	margin: 10px auto 0 auto;
+	padding-bottom: 20px;
+}
+
+.forecast__data_item {
+display: inline-block;
+text-align: center;
+width: 50px;
+flex-shrink: 0;
+}
+
+.forecast__data_item_hours {
+	font-weight: 500;
+}
+
+.forecast__data_item_temp {
+	font-weight: 600;
+}
+
+.forecast__sunrise_sunset {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto 0 auto;
+}
+
+.forecast__sunrise_sunset_item {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	justify-content: center;
+	width: 47%;
+	height: 50px;
+	background:rgba(255, 255, 255, 0.6);
+	border-radius: 6px;
+}
+
+.forecast__info {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto 0 auto;
+}
