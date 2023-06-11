@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/weather-forcaster-app/static/css/main.e6042522.css",
-    "main.js": "/weather-forcaster-app/static/js/main.fb09b091.js",
+    "main.js": "/weather-forcaster-app/static/js/main.891410ab.js",
     "index.html": "/weather-forcaster-app/index.html",
     "main.e6042522.css.map": "/weather-forcaster-app/static/css/main.e6042522.css.map",
-    "main.fb09b091.js.map": "/weather-forcaster-app/static/js/main.fb09b091.js.map"
+    "main.891410ab.js.map": "/weather-forcaster-app/static/js/main.891410ab.js.map"
   },
   "entrypoints": [
     "static/css/main.e6042522.css",
-    "static/js/main.fb09b091.js"
+    "static/js/main.891410ab.js"
   ]
 }
